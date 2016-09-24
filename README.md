@@ -3,12 +3,12 @@ This is a course-based project working upon the econophysics.
 
      Author: Yufeng Ma                   
      Fudan University
-     Email:ramosma0111@gmail.com
+     Email: ramosma0111@gmail.com
   
   
      Co-author: Chenyang Qian            
      Fudan University
-     Email:
+     Email: 13307110047@fudan.edu.cn
 
 
 ##Objective and Background
