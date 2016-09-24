@@ -1,13 +1,14 @@
 # Agent-based-simulation
 This is a course-based project working upon the econophysics.
 
-Author: Yufeng Ma                   
-Fudan University
-Email:ramosma0111@gmail.com
-
-Co-author: Chenyang Qian            
-Fudan University
-Email:
+     Author: Yufeng Ma                   
+     Fudan University
+     Email:ramosma0111@gmail.com
+  
+  
+     Co-author: Chenyang Qian            
+     Fudan University
+     Email:
 
 
 ##Objective and Background
