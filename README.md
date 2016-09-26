@@ -19,6 +19,14 @@ This project breifly introduces 5 kinds of agents and only one stock.The agents 
 
 ##Content
 ###1.Market Members
+####    - oppoptunism
+####    - idiots
+####    - intellegents
+####    - rich people
+####    - supervisor
+In this chapter, we are first introducing the same attributes of a class MarketMember. They should have their names, their assets, their positions of stocks, their cash, their decisions, their expectations, and their behaviors(policies).As a father class, the menbers should base on the information of the market and find expectations in their possible decision pools. All of the expecatations would derive a price change, which will reflect on agents' next decisions. The system regulates the stock prices will be talked about later in chapter 2. The subclasses, of course, should vary in their decisions, their behaviors, and their expectations. So it's important to specify different systems of making decisions.
+
+
 ###2.Stock price and trading rules
 ###3.Simulation 
 ###4.Results 
