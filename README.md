@@ -33,7 +33,14 @@ Deciding expectation: It's of vital importance that the opportunism give their e
 
 How to define the reward function?
 
-We've already known that one agent get a positive reward after a right action and a negative reward after a wrong one. This reward may invoke the change of the possibilities of expectactions at the state. So, this function can be expressed as R(s,a,s') which is quite similar in the reinforcement learning problem and s,s' represent the present and future state, a stands for the action or the expectation. If we are in state s, we make a decision, and of course we will know the price change in state s'. Suppose we have a memory base, we will remember the price change of this transition period, and moreover the sum of the price change with a tag of the state s and action a. For example, at a time ti(with a state s), and the agent gives 1,then he get a price change delat_x. Since every time ti the state s taking action 1, he all get a delta x. Let's say the collection is C. We first introduce a return function:E(a=1,state=s) = sum(p1(state=s,ti)*delta_x)  ,ti belongs to C. Similarly we can define a E(a=-1,state=s) = sum(p-1(state=s,ti)*delta_x), ti belongs to C(different from the C above).
+We've already known that one agent get a positive reward after a right action and a negative reward after a wrong one. This reward may invoke the change of the possibilities of expectactions at the state. So, this function can be expressed as R(s,a,s') which is quite similar in the reinforcement learning problem and s,s' represent the present and future state, a stands for the action or the expectation. If we are in state s, we make a decision, and of course we will know the price change in state s'. Suppose we have a memory base, we will remember the price change of this transition period, and moreover the sum of the price change with a tag of the state s and action a. For example, at a time ti(with a state s), and the agent gives 1,then he get a price change delat_x. Since every time ti the state s taking action 1, he all get a delta x. Let's say the collection is C. We first introduce a return function:
+
+E(a=1,state=s) = sum(p1(state=s,ti) muliplies delta_x)  ,ti belongs to C. 
+
+Similarly we can define 
+
+E(a=-1,state=s) = sum(p-1(state=s,ti) muliplies delta_x), ti belongs to C(different from the C above).
+
 Since we have defined the return function, we can just refresh our possibility.
 
 ###2.Stock price and trading rules
